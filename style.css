@@ -338,7 +338,7 @@ section .title::after{
     content: "what i did";
 }
 .services .serv-content .card {
-    width: calc(50% - 20px);
+    width: calc(97% - 0px);
     background: rgba(150, 84, 220, 0.35);
     text-align: center;
     border-radius: 6px;
@@ -353,16 +353,16 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover .box{
-    transform: scale(1.02);
+    transform: scale(0.92);
 }
 .services .serv-content .card i{
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
 }
-.services .serv-content .card:hover i{
+/* .services .serv-content .card:hover i{
     color: #fff;
-}
+} */
 .services .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
@@ -703,7 +703,7 @@ footer span a:hover{
 }
 
     .services .serv-content .card{
-        width: calc(50% - 10px);
+        width: calc(97% - 10px);
         margin-bottom: 20px;
     }
     .skills .skills-content .column,
