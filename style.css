@@ -517,8 +517,14 @@ section .title::after {
     transition: background 0.3s ease, transform 0.3s ease;
 }
 
-.experience-list li:hover {
+/* .experience-list li:hover {
     color: #19f72cc8;
+
+} */
+
+/* Keeps list text white when hovered */
+.experience-list li:hover {
+  color: #ffffff !important;
 }
 
 .experience-list li:hover::before {
